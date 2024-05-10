@@ -1,5 +1,15 @@
 # colab-2-drive
 
+This repository provides Python code snippets to download images from Unsplash and copy them to Google Drive within a Google Colab environment.
+
+## Usage
+
+1. Open the notebook in Google Colab.
+2. Copy the notebook to your drive.
+3. Run each code cell sequentially. Change the codes as per your requirements.
+4. Follow the instructions to mount Google Drive and copy images.
+
+<hr>
 
 ```python
 # Downloading an image from Unsplash

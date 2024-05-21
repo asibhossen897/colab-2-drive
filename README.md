@@ -34,11 +34,13 @@ drive.mount('/content/drive')
 ```python
 # Copying the Image to Drive
 
+!cp cars.jpg drive/MyDrive/
+
 """
 You can, of course copy an entire folder.
-In that case, replace 'cars.jpg' with the folder name.
+In that case, replace 'cars.jpg' with the folder name. And add ```-r``` in front of the folder name.
 And to save to another folder, change 'drive/MyDrive/' accordingly.
 """
 
-!cp cars.jpg drive/MyDrive/
+!cp -r images drive/MyDrive/
 ```
